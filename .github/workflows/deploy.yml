@@ -56,7 +56,7 @@ jobs:
             docker run -d \
               --restart=unless-stopped \
               --name rakshith-proj \
-              -p 8085:3838 \
+              -p 6580:3838 \
               ${{ secrets.DOCKER_USERNAME }}/ground-water:v1
           '
 
